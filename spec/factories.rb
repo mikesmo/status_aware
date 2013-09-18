@@ -5,8 +5,12 @@ end
 FactoryGirl.define do
   factory :user do
     id       "100006629106230"
-    name     "Susan Amffbiajfbcj Fallerson"
-    email    "srhhupw_fallerson_1378332932@tfbnw.net"
-    password "Trustno1"
+    name     "Michael Smolenski"
+    email    "michael.smolenski.junk@gmail.com"
+    password "Trustme8"
+    #id       "100006629106230"
+    #name     "Susan Amffbiajfbcj Fallerson"
+    #email    "srhhupw_fallerson_1378332932@tfbnw.net"
+    #password "Trustno1"
   end
 end
