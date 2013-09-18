@@ -37,6 +37,7 @@ RSpec.configure do |config|
   require 'selenium/webdriver'
 
   Capybara.default_driver = :selenium
+  Capybara.default_wait_time = 5
   Capybara.current_driver = :selenium
   Capybara.run_server = false
   Capybara.app_host = "http://www.facebook.com"
