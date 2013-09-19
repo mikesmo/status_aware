@@ -1,6 +1,6 @@
 APP_ID = '665149373497624'
 APP_SECRET = '60563ce28ed8b8027f4fd1503c090b10'
-APP_NAME = 'StatusAware_dev'
+APP_NAME = 'statusaware-dev'
 
 StatusAware::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
