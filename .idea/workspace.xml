@@ -8,14 +8,14 @@
     <ignored path="status_aware.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1380627565496" ignored="false" />
-    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1380632552312" ignored="false" />
+    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1380632800936" ignored="false" />
     <file path="$PROJECT_DIR$/../verona_promote/app/helpers/sessions_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378333125911" ignored="false" />
     <file path="/factories.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378337384393" ignored="false" />
     <file path="/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378336482241" ignored="false" />
     <file path="$PROJECT_DIR$/../status_aware_test/Gemfile" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1379586196237" ignored="false" />
     <file path="$PROJECT_DIR$/../status_aware_test/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1379590778022" ignored="false" />
     <file path="$PROJECT_DIR$/../status_aware_test/Gemfile.lock" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1379586202097" ignored="false" />
-    <file path="/production.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1379590453441" ignored="false" />
+    <file path="/production.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1380632976506" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.45598194">
+            <state line="8" column="30" selection-start="297" selection-end="297" vertical-scroll-proportion="-0.23702031">
               <folding />
             </state>
           </provider>
@@ -116,8 +116,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="496" />
-    <option name="y" value="36" />
+    <option name="x" value="632" />
+    <option name="y" value="40" />
     <option name="width" value="894" />
     <option name="height" value="790" />
   </component>
@@ -691,11 +691,15 @@
       <created>1380630847978</created>
       <updated>1380630847978</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="javascript fix">
+      <created>1380632802503</created>
+      <updated>1380632802503</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="36" width="894" height="790" extended-state="0" />
+    <frame x="632" y="40" width="894" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -756,7 +760,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix rspec tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -774,6 +778,7 @@
     <MESSAGE value="force ssl" />
     <MESSAGE value="fix heroku deployment" />
     <MESSAGE value="fix rspec tests" />
+    <MESSAGE value="javascript fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -880,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.45598194">
+        <state line="8" column="30" selection-start="297" selection-end="297" vertical-scroll-proportion="-0.23702031">
           <folding />
         </state>
       </provider>
