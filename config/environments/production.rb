@@ -1,5 +1,5 @@
-APP_ID = '665149373497624'
-APP_SECRET = '60563ce28ed8b8027f4fd1503c090b10'
+APP_ID = '431995046919090'
+APP_SECRET = '2d9ed33d6eda9d833432714d6496538a'
 APP_NAME = 'statusaware-test'
 
 StatusAware::Application.configure do
