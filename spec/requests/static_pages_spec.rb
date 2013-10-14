@@ -14,6 +14,7 @@ describe 'home page' do
       click_link 'StatusAware_dev'
       click_link 'Remove app'
       find('input[name="ok"][type="button"]').click
+      page.should_not have_content('StatusAware_dev')
     end
 
     Capybara.app_host = "http://apps.facebook.com"
@@ -23,14 +24,14 @@ describe 'home page' do
       page.should have_content('Status Aware Home Page')
     end
 
-    click_button "Cancel"
+    find_button('Cancel').click
 
     within_frame 'iframe_canvas' do
       page.should have_content('Please authorise app')
-      page.find("a:contains('authorise app')").click
+      find("a:contains('authorise app')").click
     end
 
-    click_button "Okay"
+    find_button('Okay').click
 
     within_frame 'iframe_canvas' do
       page.should have_selector("#div_welcome_message", :text => "Welcome Michael")
