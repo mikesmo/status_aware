@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b07c3197-20ad-462f-a153-1dd8d4312a13" name="Default" comment="change gem environment for capybara etc">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="b07c3197-20ad-462f-a153-1dd8d4312a13" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="status_aware.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801107854" ignored="false" />
-    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801398302" ignored="false" />
+    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801449730" ignored="false" />
     <file path="$PROJECT_DIR$/../verona_promote/app/helpers/sessions_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378333125911" ignored="false" />
     <file path="/factories.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378337384393" ignored="false" />
     <file path="/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381785567164" ignored="false" />
@@ -25,7 +25,7 @@
     <file path="$PROJECT_DIR$/../simple_app/config/routes.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381788416936" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/app/controllers/application_controller.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381788510369" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/spec/requests/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801107854" ignored="false" />
-    <file path="$PROJECT_DIR$/../simple_app/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801441233" ignored="false" />
+    <file path="$PROJECT_DIR$/../simple_app/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801550457" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/public/readme.md" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381789633325" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/spec/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801042457" ignored="false" />
     <file path="/.gitignore" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801393021" ignored="false" />
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="static_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="6" selection-start="646" selection-end="696" vertical-scroll-proportion="0.0">
+            <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="0.19582245">
               <folding />
             </state>
           </provider>
@@ -108,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.62663186">
+            <state line="16" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,10 +160,10 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       </list>
     </option>
   </component>
@@ -175,8 +175,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="256" />
-    <option name="y" value="140" />
+    <option name="x" value="267" />
+    <option name="y" value="343" />
     <option name="width" value="990" />
     <option name="height" value="790" />
   </component>
@@ -844,11 +844,15 @@
       <created>1381801270012</created>
       <updated>1381801270012</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="change gem environment for capybara etc">
+      <created>1381801456777</created>
+      <updated>1381801456777</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="140" width="990" height="790" extended-state="0" />
+    <frame x="267" y="343" width="990" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1016,20 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="2" selection-start="1330" selection-end="1626" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="646" selection-end="696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
@@ -1039,7 +1029,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.62663186">
+        <state line="16" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="2" selection-start="1330" selection-end="1626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="0.19582245">
           <folding />
         </state>
       </provider>
