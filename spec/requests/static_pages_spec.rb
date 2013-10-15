@@ -7,6 +7,7 @@ describe 'home page' do
     fill_in 'Email or Phone', :with => 'michael.smolenski.junk@gmail.com'
     fill_in 'Password', :with => 'Trustme8'
     click_button "Log In"
+    screenshot_and_save_page
 
     #page.should have_content('Facebook')
   end

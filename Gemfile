@@ -7,6 +7,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.9.0'
   gem 'capybara', '1.1.2'
+  gem 'capybara-screenshot'
   gem 'factory_girl_rails', '1.4.0'
 end
 

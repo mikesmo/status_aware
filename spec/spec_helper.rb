@@ -34,6 +34,7 @@ RSpec.configure do |config|
   require 'capybara/rails'
   require 'capybara'
   require 'capybara/dsl'
+  require 'capybara-screenshot/rspec'
   require 'selenium/webdriver'
 
   Capybara.default_driver = :selenium
