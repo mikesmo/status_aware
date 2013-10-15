@@ -10,4 +10,4 @@ describe 'home page' do
 
     #page.should have_content('Facebook')
   end
-end``
+end
