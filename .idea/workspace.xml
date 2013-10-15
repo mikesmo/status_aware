@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07c3197-20ad-462f-a153-1dd8d4312a13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/status_aware.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="status_aware.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801107854" ignored="false" />
-    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381802168884" ignored="false" />
+    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381802433002" ignored="false" />
     <file path="$PROJECT_DIR$/../verona_promote/app/helpers/sessions_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378333125911" ignored="false" />
     <file path="/factories.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378337384393" ignored="false" />
     <file path="/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381785567164" ignored="false" />
@@ -25,7 +35,7 @@
     <file path="$PROJECT_DIR$/../simple_app/config/routes.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381788416936" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/app/controllers/application_controller.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381788510369" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/spec/requests/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801107854" ignored="false" />
-    <file path="$PROJECT_DIR$/../simple_app/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381802324797" ignored="false" />
+    <file path="$PROJECT_DIR$/../simple_app/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381802487533" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/public/readme.md" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381789633325" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/spec/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801967305" ignored="false" />
     <file path="/.gitignore" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381802129596" ignored="false" />
@@ -85,7 +95,7 @@
       <file leaf-file-name="static_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="72" selection-end="72" vertical-scroll-proportion="0.11811024">
+            <state line="4" column="71" selection-start="89" selection-end="89" vertical-scroll-proportion="0.15748031">
               <folding />
             </state>
           </provider>
@@ -433,7 +443,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../verona_promote" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -848,7 +858,11 @@
       <created>1381801812195</created>
       <updated>1381801812195</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="change gem environment for capybara etc">
+      <created>1381802447783</created>
+      <updated>1381802447783</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1043,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="72" selection-end="72" vertical-scroll-proportion="0.11811024">
+        <state line="4" column="71" selection-start="89" selection-end="89" vertical-scroll-proportion="0.15748031">
           <folding />
         </state>
       </provider>
