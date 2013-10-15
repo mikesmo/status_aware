@@ -8,9 +8,6 @@ describe 'home page' do
     fill_in 'Password', :with => 'Trustme8'
     click_button "Log In"
 
-
-    # screenshot_and_save_page
-
     #page.should have_content('Facebook')
   end
-end
+end``
