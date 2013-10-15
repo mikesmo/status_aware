@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b07c3197-20ad-462f-a153-1dd8d4312a13" name="Default" comment="Ran rake for database schema">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+    <list default="true" id="b07c3197-20ad-462f-a153-1dd8d4312a13" name="Default" comment="change gem environment for capybara etc">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="status_aware.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801107854" ignored="false" />
-    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801111234" ignored="false" />
+    <file path="/Dummy.txt" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801398302" ignored="false" />
     <file path="$PROJECT_DIR$/../verona_promote/app/helpers/sessions_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378333125911" ignored="false" />
     <file path="/factories.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1378337384393" ignored="false" />
     <file path="/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381785567164" ignored="false" />
@@ -25,9 +25,10 @@
     <file path="$PROJECT_DIR$/../simple_app/config/routes.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381788416936" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/app/controllers/application_controller.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381788510369" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/spec/requests/static_pages_spec.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801107854" ignored="false" />
-    <file path="$PROJECT_DIR$/../simple_app/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801120085" ignored="false" />
+    <file path="$PROJECT_DIR$/../simple_app/.idea/workspace.xml" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801441233" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/public/readme.md" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381789633325" ignored="false" />
     <file path="$PROJECT_DIR$/../simple_app/spec/spec_helper.rb" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801042457" ignored="false" />
+    <file path="/.gitignore" changelist="b07c3197-20ad-462f-a153-1dd8d4312a13" time="1381801393021" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,15 +72,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebook_init.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/facebook_init.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="25" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,10 +99,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="0.6674877">
+            <state line="19" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.62663186">
               <folding />
             </state>
           </provider>
@@ -162,6 +163,7 @@
         <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,8 +175,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="22" />
+    <option name="x" value="256" />
+    <option name="y" value="140" />
     <option name="width" value="990" />
     <option name="height" value="790" />
   </component>
@@ -838,11 +840,15 @@
       <created>1381785601218</created>
       <updated>1381785601218</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="change gem environment for capybara etc">
+      <created>1381801270012</created>
+      <updated>1381801270012</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="22" width="990" height="790" extended-state="0" />
+    <frame x="256" y="140" width="990" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -903,7 +909,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ran rake for database schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gem environment for capybara etc" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -924,6 +930,7 @@
     <MESSAGE value="javascript fix" />
     <MESSAGE value="specFlow fixed for ajax loading delay" />
     <MESSAGE value="Ran rake for database schema" />
+    <MESSAGE value="change gem environment for capybara etc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -931,11 +938,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="12" selection-start="682" selection-end="682" vertical-scroll-proportion="0.033860046" />
@@ -1030,7 +1032,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="0.6674877">
+        <state line="19" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.62663186">
           <folding />
         </state>
       </provider>
