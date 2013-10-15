@@ -10,7 +10,7 @@ describe 'home page' do
     click_button "Log In"
 
 
-    screenshot_and_save_page
+    #screenshot_and_save_page
 
     #page.should have_content('Facebook')
   end
