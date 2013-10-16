@@ -30,22 +30,22 @@ RSpec.configure do |config|
   # rspec-rails.
   config.infer_base_class_for_anonymous_controllers = false
 
-  #require 'capybara/rspec'
-  #require 'capybara/rails'
-  #require 'capybara'
-  #require 'capybara/dsl'
-  ##require 'capybara-screenshot/rspec'
-  #require 'selenium/webdriver'
+  require 'capybara/rspec'
+  require 'capybara/rails'
+  require 'capybara'
+  require 'capybara/dsl'
+  #require 'capybara-screenshot/rspec'
+  require 'selenium/webdriver'
 
-  #Capybara.default_driver = :selenium
-  #Capybara.current_driver = :selenium
-  #Capybara.javascript_driver = :selenium
-  #Capybara.default_wait_time = 5
-  #Capybara.app_host = "http://0.0.0.0:8200"
-  #Capybara.server_port = 8200
-  #Capybara.run_server = true
+  Capybara.default_driver = :selenium
+  Capybara.current_driver = :selenium
+  Capybara.javascript_driver = :selenium
+  Capybara.default_wait_time = 5
+  Capybara.app_host = "http://0.0.0.0:3000"
+  Capybara.server_port = 3000
+  Capybara.run_server = true
 
-  #Capybara.app_host = "http://www.facebook.com"
+  Capybara.app_host = "http://www.facebook.com"
 =begin
   Capybara.register_driver :selenium do |app|
     Capybara::Selenium::Driver.new(app, :browser => :chrome)
