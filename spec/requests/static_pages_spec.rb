@@ -9,5 +9,6 @@ describe 'home page' do
     click_button "Log In"
 
     page.should have_content('Facebook')
+    # comment
   end
 end
