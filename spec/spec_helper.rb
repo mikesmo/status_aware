@@ -42,7 +42,9 @@ RSpec.configure do |config|
   Capybara.current_driver = :selenium
   Capybara.run_server = true
   Capybara.app_host = "http://www.facebook.com"
+=begin
   Capybara.register_driver :selenium do |app|
     Capybara::Selenium::Driver.new(app, :browser => :chrome)
   end
+=end
 end
