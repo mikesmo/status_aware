@@ -10,6 +10,7 @@ describe 'home page' do
 
     visit '/settings?tab=applications'
 
+=begin
     if has_content?('StatusAware_dev')
       click_link 'StatusAware_dev'
       click_link 'Remove app'
@@ -36,5 +37,6 @@ describe 'home page' do
     within_frame 'iframe_canvas' do
       page.should have_selector("#div_welcome_message", :text => "Welcome Michael")
     end
+=end
   end
 end
