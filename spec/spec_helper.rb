@@ -47,7 +47,7 @@ RSpec.configure do |config|
 
   Capybara.app_host = "http://www.facebook.com"
 
-  Capybara.save_and_open_page_path = CIRCLE_ARTIFACTS
+  Capybara.save_and_open_page_path = ENV["CIRCLE_ARTIFACTS"]
 =begin
   Capybara.register_driver :selenium do |app|
     Capybara::Selenium::Driver.new(app, :browser => :chrome)
