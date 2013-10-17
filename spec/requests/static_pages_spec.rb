@@ -15,6 +15,7 @@ describe 'home page' do
       click_button 'This is Okay'
     end
 
+
     screenshot_and_save_page
 
     visit '/settings?tab=applications'
