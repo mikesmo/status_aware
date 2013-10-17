@@ -10,6 +10,13 @@ describe 'home page' do
     fill_in 'Password', :with => user.password
     click_button "Log In"
 
+    if has_content?('Your account is temporarily locked.')
+      click_button 'Continue'
+      click_button 'This is Okay'
+    end
+
+    screenshot_and_save_page
+
     visit '/settings?tab=applications'
 
     if has_content?('StatusAware_dev')
@@ -38,5 +45,8 @@ describe 'home page' do
     within_frame 'iframe_canvas' do
       page.should have_selector("#div_welcome_message", :text => "Welcome Michael")
     end
+
+    screenshot_and_save_page
+
   end
 end

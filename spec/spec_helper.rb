@@ -34,7 +34,7 @@ RSpec.configure do |config|
   require 'capybara/rails'
   require 'capybara'
   require 'capybara/dsl'
-  #require 'capybara-screenshot/rspec'
+  require 'capybara-screenshot/rspec'
   require 'selenium/webdriver'
 
   Capybara.default_driver = :selenium
@@ -49,6 +49,6 @@ RSpec.configure do |config|
 =begin
   Capybara.register_driver :selenium do |app|
     Capybara::Selenium::Driver.new(app, :browser => :chrome)
-  end
+  end                                                         w
 =end
 end
