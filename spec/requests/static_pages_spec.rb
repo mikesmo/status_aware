@@ -44,7 +44,7 @@ describe 'home page' do
     find_button('Okay').click
 
     within_frame 'iframe_canvas' do
-      page.should have_selector("#div_welcome_message", :text => "Welcome Michael")
+      page.should have_selector("#div_welcome_message", :text => "Welcome Bill")
     end
 
     screenshot_and_save_page

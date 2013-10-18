@@ -6,7 +6,8 @@ FactoryGirl.define do
   factory :user do
     id       "100006629106230"
     name     "Michael Smolenski"
-    email    "michael.smolenski.junk@gmail.com"
+    #email    "michael.smolenski.junk@gmail.com"
+    email    "jwsqkdk_chengescumansonbergskysteinsenwitz_1382061434@tfbnw.net"
     password "Trustme8"
     #id       "100006629106230"
     #name     "Susan Amffbiajfbcj Fallerson"
