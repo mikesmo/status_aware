@@ -40,6 +40,7 @@ describe 'home page' do
 
     within_frame 'iframe_canvas' do
       page.should have_content('Please authorise app')
+      screenshot_and_save_page
       find("a:contains('authorise app')").click
     end
 
