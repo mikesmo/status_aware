@@ -16,7 +16,7 @@ describe 'home page' do
     end
 
 
-    screenshot_and_save_page
+    #screenshot_and_save_page
 
     visit '/settings?tab=applications'
 
@@ -47,7 +47,7 @@ describe 'home page' do
       page.should have_selector("#div_welcome_message", :text => "Welcome Bill")
     end
 
-    screenshot_and_save_page
+    #screenshot_and_save_page
 
   end
 end
