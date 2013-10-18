@@ -27,7 +27,7 @@ describe 'home page' do
       page.should_not have_content('StatusAware_dev')
     end
 
-    screenshot_and_save_page
+    #screenshot_and_save_page
     Capybara.app_host = "http://apps.facebook.com"
     visit '/statusaware-dev'
     screenshot_and_save_page
@@ -40,7 +40,7 @@ describe 'home page' do
 
     within_frame 'iframe_canvas' do
       page.should have_content('Please authorise app')
-      screenshot_and_save_page
+      #screenshot_and_save_page
       find("a:contains('authorise app')").click
     end
 
