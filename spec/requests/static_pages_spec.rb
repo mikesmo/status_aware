@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'home page' do
-  it 'should log user in' do
+  it 'should log user in', :js => true  do
     #visit root_path
     #page.should have_content('Status Aware Home Page')
     user ||= FactoryGirl.build :user
@@ -30,7 +30,7 @@ describe 'home page' do
     #screenshot_and_save_page
     Capybara.app_host = "http://apps.facebook.com"
     visit '/statusaware-dev'
-    screenshot_and_save_page
+    #screenshot_and_save_page
 
     within_frame 'iframe_canvas' do
       page.should have_content('Status Aware Home Page')
